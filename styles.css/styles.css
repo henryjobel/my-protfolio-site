@@ -143,10 +143,28 @@ main{
 
 }
 
+/* resumi summry */
 
-
-.resumi-title{
-    padding: 130px;
+.resume-title{
     text-align: center;
-    margin-bottom: 10px;
+    margin: 50px;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.resumi-container{
+    display: flex;
+    gap: 70px;
+}
+
+.resume-item-description{
+    color: gray;
+}
+.resume-item-institute{
+    color: burlywood;
+}
+
+.download-button{
+    text-align: center;
+    margin-top: 20px;
 }
